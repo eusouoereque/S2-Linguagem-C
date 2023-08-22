@@ -1,0 +1,25 @@
+#include <stdio.h>
+ 
+int main() {
+ 
+    int pc1, pn1, pc2, pn2;
+    float pv1, pv2, t1, t2, tt;
+    
+    scanf("%d", &pc1);
+    scanf("%d", &pn1);
+    scanf("%f", &pv1);
+    
+    scanf("%d", &pc2);
+    scanf("%d", &pn2);
+    scanf("%f", &pv2);
+    
+    t1 = pn1 * pv1;
+    t2 = pn2 * pv2;
+    
+    tt = t1 + t2;
+    
+    printf("VALOR A PAGAR: R$ %.2f\n", tt);
+    
+ 
+    return 0;
+}
